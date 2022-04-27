@@ -5,7 +5,7 @@
 3/ đưa code của mình lên server github/gitlab
     lệnh :  -) git add . | git add ./index.html
             -) git commit -m "your comment"
-            -) git push origin master | git push
+            -) git push --set-upstream origin master | git push
 4/ lệnh kiểm tra trạng thái của git
     lệnh : git status
 5/ lệnh giúp git biết dc sẽ đưa code lên chổ nào
@@ -13,6 +13,15 @@
     ví dụ : git remote add origin https://github.com/dinh2350/git-bc28.git
 6/ kiểm tra xem add remote thành công chưa :
     lệnh : git remote
-
-
+7/ thằng mới vào công ty lấy code về như thế nào : 
+    lệnh : git clone {url_github}
+    ví dụ : git clone https://github.com/dinh2350/git-bc28.git
+8/ kiểm tra xem có bao nhiêu nhánh trên src code : 
+    lệnh : git branch
+9/ tạo nhánh mới :
+    lệnh : git branch {name}
+    ví dụ : git branch hao-dep-trai
+10/ chuyển nhánh để code tiếp : 
+    lệnh : git checkout {branch_name}
+    ví dụ : git checkout hao-dep-trai
 note : ******
