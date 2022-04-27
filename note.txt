@@ -3,8 +3,16 @@
 2/ kiểm tra phiên bản git
     - lệnh : git --version
 3/ đưa code của mình lên server github/gitlab
-    lệnh :  -) git add .
+    lệnh :  -) git add . | git add ./index.html
             -) git commit -m "your comment"
-            -) git push
+            -) git push origin master
 4/ lệnh kiểm tra trạng thái của git
     lệnh : git status
+5/ lệnh giúp git biết dc sẽ đưa code lên chổ nào
+    lệnh : git remote add {name} {url_github}
+    ví dụ : git remote add origin https://github.com/dinh2350/git-bc28.git
+6/ kiểm tra xem add remote thành công chưa :
+    lệnh : git remote
+
+
+note : ******
